@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+.formDetail{
+    
+       margin: auto;
+       padding: 34px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+}
+span{
+  text-transform: capitalize;
+  font-weight: 800;
+  font-size: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+
+}
+ 
+  
+ .formDetail p{
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+ }
+ 
+.input{ 
+ display: block;
+ padding: 5px;
+ width: 500px;
+ border-radius: 4px;
+ border: 1px solid green;
+ margin: 5px;
+ text-transform: capitalize;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ 
+}
+button{
+  margin-left: 40%;
+    padding: 5px;
+    margin-right: 50%;
+    width: 100px;
+    background-color: blue;
+    font-size: large;
+    border-radius: 10px;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(168, 216, 168);
+    box-shadow:1px 0px 2px 0px green;
+    
+     
+} 
+
+.successMsg{
+  color: green;
+  transition: all 1 ease-in;
+}
